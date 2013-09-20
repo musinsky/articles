@@ -255,9 +255,9 @@ D_{i} = \frac{|a z_{i} - x_{i} + b|}{\sqrt{1 + a^{2}}}.
 Задача реконструкции трека состоит в~получении параметров прямой $a$ и $b$
 путём минимизации $\chi^2$ функции:
 \begin{equation}
-\chi^2 = \frac{1}{N-2}\sum_{i=1}^{N} [|D_i| -S_ir_i]^2 =
-\frac{1}{N-2}\sum_{i=1}^{N} \biggl[
-\Big|\frac{az_i - x_i + b}{\sqrt{1 + a^2}}\Big| - S_ir_i\biggr]^2,
+  \chi^2 = \frac{1}{N-2}\sum_{i=1}^{N} [|D_i| -S_ir_i]^2 =
+  \frac{1}{N-2}\sum_{i=1}^{N} \biggl[
+  \Big|\frac{az_i - x_i + b}{\sqrt{1 + a^2}}\Big| - S_ir_i\biggr]^2,
 \end{equation}
 где $S_i$ имеет в зависимости от положения трека относительно проволочки
 значение $\pm{1}$ (смотри рис.~\ref{fig:reco_scheme}),
@@ -268,14 +268,14 @@ $\frac{\partial \chi^2}{\partial a} = 0$ и
 $\frac{\partial \chi^2}{\partial b} = 0$, которые можно решить итеративно.
 Уравнение (1) можно переписать следующим образом:
 \begin{equation}
-\chi^2 = \frac{1}{N-2}\sum_{i=1}^{N}
-\biggl[\frac{aZ_i - X_i + b}{\sqrt{1 + a^2}}\biggr]^2,
+  \chi^2 = \frac{1}{N-2}\sum_{i=1}^{N}
+  \biggl[\frac{aZ_i - X_i + b}{\sqrt{1 + a^2}}\biggr]^2,
 \end{equation}
 где координаты проволочек $(z_{i}, x_{i})$ заменяем координатами
 $(Z_{i}, X_{i})$, которые вычисляются как:
 \begin{equation}
-Z_i = z_i - S_ir_i \frac{a_0}{\sqrt{1 + a_0^2}}, \qquad
-X_i = x_i - S_ir_i \frac{1}{\sqrt{1 + a_0^2}}.
+  Z_i = z_i - S_ir_i \frac{a_0}{\sqrt{1 + a_0^2}}, \qquad
+  X_i = x_i - S_ir_i \frac{1}{\sqrt{1 + a_0^2}}.
 \end{equation}
 
 Минимизируя $\chi^2$ функцию (уравнение 2), методом наименьших квадратов,
@@ -415,7 +415,7 @@ $\triangle r$ (residual) от времени дрейфа в большой др
   с протонами на установке СТРЕЛА.
 \end{itemize}
 
-Данная работа выполнена при поддержке гранта Словакии \No 1/4010/07.
+Данная работа выполнена при поддержке гранта Словакии \textnumero 1/4010/07.
 
 
 
