@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\usepackage[a4paper,pdftex,
+left=2.5cm,right=2.5cm,top=3.0cm,bottom=3.0cm]{geometry}
+\usepackage{ucs}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage{colortbl}
+\usepackage{amsmath}
+
+\unitlength=1mm
+\graphicspath{{figures/}}
+\PrerenderUnicode{ая}
+
+\newcommand{\np}{\ensuremath{np \rightarrow pn}\xspace}
+\newcommand{\dpfrag}{\ensuremath{dp \rightarrow ppn}\xspace}
+\newcommand{\dpret}{\ensuremath{dp \rightarrow (pn)p}\xspace}
+\newcommand{\dpchex}{\ensuremath{dp \rightarrow (pp)n}\xspace}
+\newcommand{\dpela}{\ensuremath{dp \rightarrow dp}\xspace}
+
+\begin{document}
+\include{main_text}
+\bibliography{references}
+\bibliographystyle{unsrt}
+\end{document}
+
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

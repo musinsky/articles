@@ -1,0 +1,58 @@
+\newcolumntype{M}{>{\columncolor[gray]{0.75}[0.90\tabcolsep]}c}
+\begin{table}[h]
+  \begin{center}
+    \bigskip
+    \resizebox{1.0\textwidth}{!} {
+      \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+        \hline
+        Расположение блока & \multicolumn{16}{c|}{До мишени} \\
+        \hline
+        Блок & \multicolumn{4}{c|}{} &
+        \multicolumn{8}{M|}{D1} & \multicolumn{4}{c|}{} \\
+        \cline{6-13}
+        Координата & \multicolumn{4}{c|}{} &
+        $y$ & $y\,'$ & $y$ & $y\,'$ & $x$ & $x\,'$ & $x$ & $x\,'$ &
+        \multicolumn{4}{c|}{} \\
+        Число проволочек & \multicolumn{4}{c|}{} &
+        4 & 3 & 4 & 3 & 4 & 3 & 4 & 3 & \multicolumn{4}{c|}{} \\
+        \hline \hline
+
+        Расположение блока & \multicolumn{16}{c|}{За мишенью} \\
+        \hline
+        Блок & \multicolumn{4}{M|}{D2} & \multicolumn{4}{M|}{D3} &
+        \multicolumn{4}{M|}{D4} & \multicolumn{4}{M|}{D5} \\
+        \cline{2-17}
+        Координата & $y$ & $y\,'$ & $x$ & $x\,'$ & $u$ & $u\,'$ & $v$ & $v\,'$ &
+        $x$ & $x$ & $x\,'$ & $x\,'$ & $y$ & $y\,'$ & $x$ & $x\,'$ \\
+        Число проволочек &
+        4 & 3 & 4 & 3 & 4 & 3 & 4 & 3 & 4 & 4 & 3 & 3 & 4 & 3 & 4 & 3 \\
+        \hline \hline
+
+        Расположение блока & \multicolumn{16}{c|}{За магнитом} \\
+        \hline
+        Блок & \multicolumn{2}{c|}{} & \multicolumn{8}{M|}{D6} &
+        \multicolumn{4}{M|}{D7} & \multicolumn{2}{c|}{} \\
+        \cline{4-15}
+        Координата & \multicolumn{2}{c|}{} &
+        $y$ & $y\,'$ & $y$ & $y\,'$ & $x$ & $x\,'$ & $x$ & $x\,'$ & $u$ & $u\,'$
+        & $v$ & $v\,'$ &
+        \multicolumn{2}{c|}{} \\
+        Число проволочек & \multicolumn{2}{c|}{} &
+        7 & 6 & 7 & 6 & 7 & 6 & 7 & 6 & 7 & 6 & 7 & 6 & \multicolumn{2}{c|}{} \\
+        \hline
+      \end{tabular}
+    }
+    \smallskip
+    \caption{Конфигурация блоков дрейфовых камер на установке
+      СТРЕЛА. $uv$-координаты повёрнутые относительно $xy$-координат вокруг оси
+      $z$, штриховая координата означает сдвинутую плоскость камеры.}
+    \label{tab:cham_config}
+  \end{center}
+\end{table}
+
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../strela2012"
+%%% End:
