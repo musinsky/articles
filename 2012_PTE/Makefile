@@ -1,9 +1,9 @@
-# 2013-09-23
+# 2014-08-06
 
 NAME		= strela2012
 
-FILES		= strela2012.tex main_text.tex references.bib \
-		  strela2012.orig.pdf
+FILES		= strela2012.tex strela2012_main.tex references.bib \
+		  strela2012.orig.pdf abstractENG.tex
 DIRS		= figures tables
 ALLFILES	= $(FILES) $(DIRS)
 DISTSRCNAME	= $(notdir $(shell pwd))_$(shell date +%F).tar.gz

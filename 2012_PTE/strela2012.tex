@@ -1,7 +1,12 @@
-\documentclass{article}
+\documentclass[aps,12pt,final,notitlepage,oneside,onecolumn,nobibnotes,
+  nofootinbib,superscriptaddress,noshowpacs,centertags]{revtex4}
 
-\usepackage[a4paper,pdftex,
-  left=2.5cm,right=2.5cm,top=3.0cm,bottom=3.0cm]{geometry}
+% from http://www.maik.ru/pub/tex/maik/maik.rty
+\textheight = 235mm
+\textwidth  = 165mm
+
+\usepackage{amssymb,amsmath}
+\usepackage{mathtext}
 
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -9,27 +14,69 @@
 
 \usepackage{xspace}
 \usepackage{graphicx}
-\usepackage{colortbl}
-\usepackage{amsmath}
-
-\unitlength=1mm
 \graphicspath{{figures/}}
+
+\usepackage{caption2}
+\setcaptionwidth{\linewidth}
+\renewcommand{\captionlabeldelim}{.~}
+\renewcommand{\captionlabelfont}{\bfseries}
+\renewcommand{\captionfont}{\footnotesize}
+
+\makeatletter
+\renewcommand \thefigure{\@arabic\c@figure}
+\renewcommand \thetable{\@arabic\c@table}
 
 \newcommand{\np}{\ensuremath{np \rightarrow pn}\xspace}
 \newcommand{\dpfrag}{\ensuremath{dp \rightarrow ppn}\xspace}
 \newcommand{\dpret}{\ensuremath{dp \rightarrow (pn)p}\xspace}
 \newcommand{\dpchex}{\ensuremath{dp \rightarrow (pp)n}\xspace}
-\newcommand{\dpela}{\ensuremath{dp \rightarrow dp}\xspace}
 
 \begin{document}
-\include{main_text}
+
+\selectlanguage{russian}
+
+\title{Экспериментальная установка СТРЕЛА \\
+  для изучения зарядово-обменных процессов}
+\author{\firstname{В.~В.}~\surname{Глаголев}}
+\affiliation{Объединенный институт ядерных исследований \\
+  Россия, 141980, Дубна Московской обл., ул. Жолио-Кюри, 6}
+\author{\firstname{Д.~А.}~\surname{Кириллов}}
+\affiliation{Объединенный институт ядерных исследований \\
+  Россия, 141980, Дубна Московской обл., ул. Жолио-Кюри, 6}
+\author{\firstname{Г.}~\surname{Мартинска}}
+\email{gabriela.martinska@upjs.sk}
+\affiliation{Университет им. П.~Й.~Шафарика \\
+  Словакия, 04154, Кошице, Шробарова 2}
+\author{\firstname{Я.}~\surname{Мушински}}
+\affiliation{Объединенный институт ядерных исследований \\
+  Россия, 141980, Дубна Московской обл., ул. Жолио-Кюри, 6}
+\affiliation{Институт экспериментальной физики САН \\
+  Словакия, 04001, Кошице, Ватсонова 47}
+\author{\firstname{Н.~М.}~\surname{Пискунов}}
+\affiliation{Объединенный институт ядерных исследований \\
+  Россия, 141980, Дубна Московской обл., ул. Жолио-Кюри, 6}
+\author{\firstname{Й.}~\surname{Урбан}}
+\affiliation{Университет им. П.~Й.~Шафарика \\
+  Словакия, 04154, Кошице, Шробарова 2}
+
+\begin{abstract}
+  Описывается экспериментальная установка СТРЕЛА, предназначенная для
+  исследования зарядово-обменных процессов в дейтрон-протонных столкновениях в
+  области энергий выше 1~ГэВ. Установка представляет одноплечевой магнитный
+  спектрометр, основными элементами которого являются дрейфовые камеры. Было
+  проведено тестовое облучение в пучке дейтронов импульса 3.5~ГэВ/с на
+  ускорительном комплексе Нуклотрона ЛФВЭ ОИЯИ. Разработаны и протестированы на
+  реальных событиях алгоритмы для поиска и реконструкции треков в дрейфовых
+  камерах. Полученное значение пространственного разрешения камер лежит в
+  диапазоне 90--120~мкм, что позволяет осуществить изучение интересующего нас
+  процесса.
+\end{abstract}
+
+\maketitle
+
+\input{strela2012_main}
+
 \bibliography{references}
-\bibliographystyle{unsrt}
+%\bibliographystyle{maik}
+
 \end{document}
-
-
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:
