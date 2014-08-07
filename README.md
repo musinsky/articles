@@ -1,6 +1,9 @@
 * [Реакция перезарядки dp → (pp)n](https://github.com/musinsky/articles/tree/master/2006_preprintJINR)<br />
 препринт ОИЯИ, P1-2006-112
 
+* [The charge exchange reaction dp → (pp)n](https://github.com/musinsky/articles/tree/master/2008_CEJP)<br />
+Cent. Eur. J. Phys. 6(4), 2008, 781-785
+
 * [Поиск и реконструкция трека в дрейфовых камерах на установке СТРЕЛА](https://github.com/musinsky/articles/tree/master/2008_preprintJINR)<br />
 препринт ОИЯИ, P13-2008-165
 
