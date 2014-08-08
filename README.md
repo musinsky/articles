@@ -1,3 +1,6 @@
+* [Оценка вероятности спинзависящей амплитуды np → pn процесса при исследовании реакции перезарядки с участием дейтрона](https://github.com/musinsky/articles/tree/master/2000_PANL)<br />
+Письма в ЭЧАЯ, No.3[100]-2000, P.67-73
+
 * [Реакция перезарядки dp → (pp)n](https://github.com/musinsky/articles/tree/master/2006_preprintJINR)<br />
 препринт ОИЯИ, P1-2006-112
 
