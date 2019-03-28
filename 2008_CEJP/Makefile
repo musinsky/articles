@@ -1,4 +1,4 @@
-# 2014-08-07
+# 2019-03-28
 
 NAME		= spinflip
 
@@ -11,7 +11,7 @@ DISTSRCNAME	= $(notdir $(shell pwd))_$(shell date +%F).tar.gz
 all:	pdf
 
 pdf:	$(NAME).tex
-	latexmk -pdf $(NAME)
+	latexmk -shell-escape -pdf $(NAME)
 
 distsrc:
 	@rm -f $(DISTSRCNAME)
