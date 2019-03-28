@@ -1,6 +1,9 @@
 * [Deuteron as a Spin Flip Amplitude Analizer](https://github.com/musinsky/articles/tree/master/2000_ISHEPP_XV)<br />
 ISHEPP XV, Dubna 2000
 
+* [STRELA setup + установка СТРЕЛА](https://github.com/musinsky/articles/tree/master/2000_PAC)<br />
+PAC, Dubna 2000
+
 * [Оценка вероятности спинзависящей амплитуды np → pn процесса при исследовании реакции перезарядки с участием дейтрона](https://github.com/musinsky/articles/tree/master/2000_PANL)<br />
 Письма в ЭЧАЯ, No.3[100]-2000, P.67-73
 
