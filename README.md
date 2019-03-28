@@ -4,6 +4,9 @@ ISHEPP XV, Dubna 2000
 * [Оценка вероятности спинзависящей амплитуды np → pn процесса при исследовании реакции перезарядки с участием дейтрона](https://github.com/musinsky/articles/tree/master/2000_PANL)<br />
 Письма в ЭЧАЯ, No.3[100]-2000, P.67-73
 
+* [Investigation of charge exchange reaction in deuteron-proton interaction at the Nuclotron](https://github.com/musinsky/articles/tree/master/2002_ISHEPP_XVI)<br />
+ISHEPP XVI, Dubna 2002
+
 * [Реакция перезарядки dp → (pp)n](https://github.com/musinsky/articles/tree/master/2006_preprintJINR)<br />
 препринт ОИЯИ, P1-2006-112
 
