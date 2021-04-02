@@ -8,7 +8,7 @@ All LaTeX files and figures received at 2021-03 from Egle.
 * 2020-01-28 published online
 
 ## LaTeX
-EPJA-105322 manuscript (`ALPOM.tex` size 63749 bytes, 2019-08-16). This version is on [arXiv.org](https://arxiv.org/abs/1908.06159) with minimum modification (arXiv.org changes all figures to `*.pdf`). Source files and pdf file from https://arxiv.org/abs/1908.06159 and https://arxiv.org/abs/1908.06159v1 are absolutely identically ?!
+EPJA-105322 manuscript (`ALPOM.tex` size 63749 bytes, 2019-08-16). This version is on [arXiv.org](https://arxiv.org/abs/1908.06159) with minimum modification (arXiv.org changes all figures to `*.pdf`). Source files and pdf file from https://arxiv.org/format/1908.06159 and https://arxiv.org/format/1908.06159v1 are absolutely identically ?!
 
 Revision EPJA-105322.R1 manuscript (`ALPOMRev.tex` size 65515 bytes, 2019-10-30) has been accepted for publication. This file is stored. Modifications in file come only with LaTeX (formatting, cleaning, etc.) and original text is **UNTOUCHED**.
 
@@ -79,8 +79,8 @@ convert Fig11-000.jpg -crop 0x0-40+0 -trim fig11_Fig11.jpg
 ```
 * `fig12_Fig12.jpg` raster (original `Fig12.pdf` raster+vector in vector)
 ```
-gs -dBATCH -dNOPAUSE -dSAFER -sDEVICE=jpeg -dJPEGQ=100 -r1200 -sOutputFile=Fig12.jpg Fig12.pdf
-convert Fig12.jpg -trim -resize 800x -quality 85 fig12_Fig12.jpg
+gs -dBATCH -dNOPAUSE -dSAFER -sDEVICE=jpeg -dJPEGQ=100 -r1200 -sOutputFile=Fig12_q100_r1200.jpg Fig12.pdf
+convert Fig12_q100_r1200.jpg -trim -resize 800x -quality 85 fig12_Fig12.jpg
 # other options
 # pdfimages -all Fig12.pdf Fig12   # create 4 separate high quality png images
 # LibreOffice Draw: Export As PDF: JPEG compression Quality 75%, Reduce image resolution 150 DPI
