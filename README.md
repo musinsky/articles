@@ -10,6 +10,9 @@ PAC, Dubna 2000
 * [Investigation of charge exchange reaction in deuteron-proton interaction at the Nuclotron](https://github.com/musinsky/articles/tree/master/2002_ISHEPP_XVI)<br />
 ISHEPP XVI, Dubna 2002
 
+* [Spin-dependent np → pn amplitude estimated from dp → ppn](https://github.com/musinsky/articles/tree/master/2002_EPJA)<br />
+Eur. Phys. J. A 15, 2002, 471-475 [DOI](https://doi.org/10.1140/epja/i2002-10053-5)
+
 * [Реакция перезарядки dp → (pp)n](https://github.com/musinsky/articles/tree/master/2006_preprintJINR)<br />
 препринт ОИЯИ, P1-2006-112
 
