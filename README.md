@@ -26,10 +26,10 @@ Cent. Eur. J. Phys. 6(4), 2008, 781-785
 Приборы и техника эксперимента, 2013, No 4, с. 20-31
 
 * [Measurement of neutron and proton analyzing powers on C, CH, CH<sub>2</sub> and Cu targets in the momentum region 3-4.2 GeV/c](https://github.com/musinsky/articles/tree/master/2019_EPJA)<br />
-Eur. Phys. J. A 56:26, 2020, [DOI](https://doi.org/10.1140/epja/s10050-020-00032-z)
+Eur. Phys. J. A 56, 26, 2020, [DOI](https://doi.org/10.1140/epja/s10050-020-00032-z)
 
 * [Charge exchange dp → (pp)n reaction study at 1.75 A GeV/c by the STRELA spectrometer](https://github.com/musinsky/articles/tree/master/2021_EPJA)<br />
-Eur. Phys. J. A VOLUME, YEAR, PAGES (DOI)
+Eur. Phys. J. A 57, 133, 2021, [DOI](https://doi.org/10.1140/epja/s10050-021-00438-3)
 
 License
 -------
