@@ -1,4 +1,4 @@
-% 2021-03-31
+% 2021-04-20
 % TeX Live 2020: tlmgr install newtx fontaxes xstring sttools
 
 %%% EPJA history
@@ -8,6 +8,7 @@
 %%% 2021-03-15 EPJA-105992.R1 comments from referees
 %%% 2021-03-17 submit revision EPJA-105992.R2
 %%% 2021-03-20 EPJA-105992.R2 accepted
+%%% 2021-04-18 published online
 
 \documentclass[twocolumn,epjc3]{svjour3}
 
@@ -36,7 +37,7 @@
 
 \title{Charge exchange
   $\boldsymbol{{\dpchex}}$ % correct bold math fonts (not for mathptmx)
-  reaction study at 1.75 A \GeVc by the STRELA spectrometer}
+  reaction study at 1.75 A \GeVc by the~STRELA spectrometer}
 
 \author{\raggedright
   S.~N.~Basilev\thanksref{jinr}    \and Yu.~P.~Bushuev\thanksref{jinr}   \and
@@ -52,17 +53,17 @@
 }
 
 \institute{\noindent
-  \,Joint Institute for Nuclear Research, Joliot Curie 6, 141980 Dubna,
+  \ Joint Institute for Nuclear Research, Joliot Curie 6, 141980 Dubna,
   Moscow region, Russia\label{jinr} \and
-  \,University of P.\,J. \v{S}af\'{a}rik, Jesenn\'{a} 5, 04001 Ko\v{s}ice,
+  \ University of P.\,J. \v{S}af\'{a}rik, Jesenn\'{a} 5, 04001 Ko\v{s}ice,
   Slovak Republic\label{upjs} \and
-  \,Institute of Experimental Physics, Watsonova 47, 04001 Ko\v{s}ice,
+  \ Institute of Experimental Physics, Watsonova 47, 04001 Ko\v{s}ice,
   Slovak Republic\label{saske}
 }
-\thankstext{e1}{\,e-mail: musinsky@saske.sk}
+\thankstext{e1}{\,e-mail: \href{mailto:musinsky@saske.sk}{musinsky@saske.sk}
+  (corresponding author)}
 
-\date{Received: date / Accepted: date}
-% The correct dates will be entered by the editor
+\date{Received: 23 November 2020 / Accepted: 20 March 2021}
 \maketitle
 
 \begin{abstract}
@@ -123,7 +124,7 @@ system can be presented as \cite{gla02}
     (\boldsymbol{\sigma}_1\,\mathbf{n})
     (\boldsymbol{\sigma}_2\,\mathbf{n})\ +\ c\bigl[
     (\boldsymbol{\sigma}_1\,\mathbf{n}) +
-    (\boldsymbol{\sigma}_2\,\mathbf{n})\bigr]\ \ + \\
+    (\boldsymbol{\sigma}_2\,\mathbf{n})\bigr]\\
     +\ &e
     (\boldsymbol{\sigma}_1\,\mathbf{m})
     (\boldsymbol{\sigma}_2\,\mathbf{m})\ +\ f
@@ -161,9 +162,8 @@ $NN$-amplitudes via
 \begin{equation}
   \label{eq:dp_13np}
   \begin{split}
-    (d\sigma/dt)_{\dpchex} =\ &\bigl[1 - F_d(t)\bigr]\,(d\sigma/dt)^{SI}_{\np}
-    \quad + \\
-    &\bigl[1 - 1/3\,F_d(t)\bigr]\,(d\sigma/dt)^{SD}_{\np}\,,
+    (d\sigma/dt)_{\dpchex} =&\ \bigl[1 - F_d(t)\bigr]\,(d\sigma/dt)^{SI}_{\np}\\
+    &+\bigl[1 - 1/3\,F_d(t)\bigr]\,(d\sigma/dt)^{SD}_{\np}\,,
   \end{split}
 \end{equation}
 where $F_d(t)$ denotes the deuteron form factor, $t = (P_d - P_1 - P_2)^2$ is
@@ -251,7 +251,7 @@ exchange amplitude and compare with the existing experimental results.
   \includegraphics[width=1.00\textwidth]{STRELA_layout.pdf}
   \caption{Schematic layout of the experimental setup to study the \dpchex
     charge exchange channel, consisting of scintillator counters (S1~--~S3),
-    drift chambers (DC1 -- DC4), analyzing magnet M and target T.}
+    drift chambers (DC1 -- DC4), analyzing magnet M and target T}
   \label{fig:STRELA_layout}
 \end{figure*}
 
@@ -281,8 +281,8 @@ planes ($2y$, $2x$) while the DC2 contains 4 sensitive planes ($4x$).
   \centering
   \includegraphics[width=0.47\textwidth]{res_chambers.pdf}
   \caption{Example of distribution of track residuals $\Delta r$ in the $xz$
-    plane of drift chambers: (a) small and (b) large. The solid curve is a
-    double Gaussian approximation \cite{gla13}.}
+    plane of drift chambers: (\textbf{a}) small and (\textbf{b}) large. The
+    solid curve is a double Gaussian approximation \cite{gla13}}
   \label{fig:res_chambers}
 \end{figure}
 
@@ -325,7 +325,7 @@ deuteron beam momentum from the examined reaction are bended at 0.289 mrad to
 the blocks of large drift chambers (DC3 and DC4) for detection; unscattered
 primary deuteron beam does not enter the sensitive areas of these chambers. The
 momentum resolution measured with the primary deuteron beam of 3.5 \GeVc is
-about 1~\%.
+about 1\%.
 
 Carbon (C) and polyethylene (CH$_2$) targets are used to extract the $dp$
 interaction by subtracting CH$_2$ and C distributions. The volume of the targets
@@ -361,7 +361,8 @@ protons of the charge exchange reaction are fully in the detector acceptance.
   \centering
   \includegraphics[width=0.43\textwidth]{p1_vs_p2_1.pdf}
   \caption{Plot of the GEANT3 tracked 1m HBC two charged particles momenta $p_1$
-    \textit{vs.} $p_2$ from $dp$: all channels (a) and \dpfrag only~(b).}
+    \textit{vs.} $p_2$ from $dp$: all channels (\textbf{a}) and \dpfrag only
+    (\textbf{b})}
   \label{fig:p1vsp2_sim}
 \end{figure}
 
@@ -383,22 +384,21 @@ approximately equal to the half of the beam momenta, or a single fast proton
 from the charge retention \dpret channel, where the recoil slow proton is
 filtered out by the magnet.
 
-In the presented data (Fig. \ref{fig:p1vsp2_exp}) two well-separated areas can
+In the presented data (Fig.~\ref{fig:p1vsp2_exp}) two well-separated areas can
 be distinguished as well as in the simulated ones
-(Fig.~\ref{fig:p1vsp2_sim}~(a)). The more populated ellipse like area in
-Fig. \ref{fig:p1vsp2_sim}~(a) can be ascribed to the charge exchange events if
-one compares with the results of simulation in
-Fig. \ref{fig:p1vsp2_sim}~(b). This crosschecks the statements made about the
-detector acceptance above. The arch like areas in Fig. \ref{fig:p1vsp2_sim}~(a)
-and Fig. \ref{fig:p1vsp2_exp} correspond to background two-track events. A
-simple cut on the sum of the two reconstructed momenta can remove the events
-from the arch like area.
+(Fig.~\ref{fig:p1vsp2_sim}a). The more populated ellipse like area in
+Fig.~\ref{fig:p1vsp2_sim}a can be ascribed to the charge exchange events if one
+compares with the results of simulation in Fig.~\ref{fig:p1vsp2_sim}b. This
+crosschecks the statements made about the detector acceptance above. The arch
+like areas in Fig.~\ref{fig:p1vsp2_sim}a and Fig.~\ref{fig:p1vsp2_exp}
+correspond to background two-track events. A simple cut on the sum of the two
+reconstructed momenta can remove the events from the arch like area.
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.43\textwidth]{p1_vs_p2_2.pdf}
   \caption{Plot of the measured momenta $p_1$ \textit{vs.} $p_2$ of the two
-    tracks from $d$ + CH$_{2}$ interaction, experimental result.}
+    tracks from $d$ + CH$_{2}$ interaction, experimental result}
   \label{fig:p1vsp2_exp}
 \end{figure}
 
@@ -417,17 +417,18 @@ the two protons momenta is in the interval (3.5 $\pm$ 0.2) \GeVc.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.43\textwidth]{p1_plus_p2_1.pdf}
+  \includegraphics[width=0.42\textwidth]{p1_plus_p2_1.pdf}
   \caption{Distributions of the sum of the two protons momenta from
     $d$~+~CH$_{2}$ and $d$ + C interactions, experimental results: CH$_2$ target
-    long dashed line, C target dashed line and their difference full line.}
+    long dashed line, C target dashed line and their difference full line}
   \label{fig:p1p2exp}
 \end{figure}
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.43\textwidth]{p1_plus_p2_2.pdf}
+  \includegraphics[width=0.42\textwidth]{p1_plus_p2_2.pdf}
   \caption{Distributions of the sum of the two protons momenta from GEANT3
-    tracked 1m HBC: $dp$ all channels (a) and \dpfrag channel only (b).}
+    tracked 1m HBC: $dp$ all channels (\textbf{a}) and \dpfrag channel only
+    (\textbf{b})}
   \label{fig:p1p2sim}
 \end{figure}
 
@@ -459,28 +460,27 @@ corrected for the efficiency of chambers.
   \centering
   \includegraphics[width=0.48\textwidth]{dp_dN.pdf}
   \caption{Differential distribution $dN/dt$ of the \dpchex reaction. The solid
-    line is approximation by Eq. \eqref{eq:dndtfit}.}
+    line is approximation by Eq. \eqref{eq:dndtfit}}
   \label{fig:dndt}
 \end{figure}
 
-The value $(dN/dt)|\,_{t=0}=(435.6\,\pm\,6.8)$ N$/$(\GeVc)$^{\,2}$ corresponds
-to the charge exchange reaction differential cross section
-$(d\sigma/dt)|\,_{t=0}=(30.56\,\pm\,0.48$) mb$/$(\GeVc)$^{\,2}$.
-% 3x artificial a thin space (Overfull \hbox)
-The quoted \,error is statistical \,only. \,Systematic uncertainties which
-affect the overall normalization of the cross sections have been estimated to be
-about 5~\%. This uncertainty stems mainly from the deuteron flux determination.
-The uncertainty from the target thickness and the histogram bin width are
-relatively small.
+The value $(dN/dt)|\,_{t=0}=(435.6\,\pm\,6.8)$ N$/$(\GeVc)$^{\,2}$ \linebreak
+corresponds to the charge exchange reaction differential \linebreak cross
+section $(d\sigma/dt)|\,_{t=0}=(30.56\,\pm\,0.48$) mb$/$(\GeVc)$^{\,2}$. The
+quoted error is statistical only. Systematic uncertainties which affect the
+overall normalization of the cross sections have been estimated to be about
+5\%. This uncertainty stems mainly from the deuteron flux determination. The
+uncertainty from the target thickness and the histogram bin width are relatively
+small.
 
 The obtained charge exchange differential cross section on the deuteron at $t=0$
 was compared with the available data from \np reaction at the same interpolated
 energy from published data. The closest energy data comes from measurements made
 at the SATURN accelerator \cite{biz75,bys78}. Unlike to the other similar
 experiments, Bizard et al. \cite{biz75} used quasi monochromatic neutrons from
-accelerated deuteron stripping with a momentum spread of~5~\%. New data about
-\np scattering at the momenta of incident quasi monochromatic neutrons at 1.43,
-2.23 and 5.20 \GeVc have been obtained in \cite{tro14}.
+accelerated deuteron stripping with a momentum spread of~5\%. New data about \np
+scattering at the momenta of incident quasi monochromatic neutrons at 1.43, 2.23
+and 5.20 \GeVc have been obtained in \cite{tro14}.
 
 The values of $(d\sigma/dt)|\,_{t=0}$ of \np reaction as a function of the
 incident momenta is shown in Fig. \ref{fig:npsigma}. Each individual
@@ -496,7 +496,7 @@ been used in \cite{gla08}.
   \caption{The dependence of the $(d\sigma/dt)|\,_{t=0}$ for the \np reaction on
     the beam momentum. The data points are computed from the experimental
     results \cite{biz75}. The solid curve is a simple exponential fit to the
-    data points.}
+    data points}
   \label{fig:npsigma}
 \end{figure}
 
@@ -504,9 +504,9 @@ To determine the $(d\sigma/dt)|\,_{t=0}$ of the \np reaction at ``our incident''
 proton momentum of 1.75 \GeVc per nucleon, an exponential fit is made to the
 results of Fig. \ref{fig:npsigma}, which gives the following value of
 $(d\sigma/dt)|\,_{t=0} = (48.0\,\pm\,0.2$) mb$/$(\GeVc)$^{\,2}$. The
-systematical error due to fit procedure is approximately 5~\%. The obtained
-value will be related to the estimated differential cross section of the quasi
-elastic \dpchex charge exchange at $t=0$ from our experiment.
+systematical error due to fit procedure is approximately 5\%. The obtained value
+will be related to the estimated differential cross section of the quasi elastic
+\dpchex charge exchange at $t=0$ from our experiment.
 
 One can introduce the ratio of the differential cross sections for the forward
 scattering (charge exchange) on the deuteron and proton
@@ -532,7 +532,7 @@ two parts of the elastic \np charge exchange cross section, has been obtained as
 \end{equation}
 It should be emphasized that the obtained contribution, of course, depends on
 the elementary \np charge exchange cross section which is taken from another
-experiment and on the systematical errors of approximately 5~\% which is due to
+experiment and on the systematical errors of approximately 5\% which is due to
 the fit procedure. Preliminary data published in \cite{bas14,bas16} are not
 contradicting the presented results.
 
@@ -588,6 +588,11 @@ the preparation is in progress.
   Sport of the Slovak Republic (VEGA Grant No.~1/0113/18).
 \end{acknowledgements}
 
+% \small{\noindent \textbf{Data Availability Statement} This manuscript has no
+% associated data or the data will not be deposited. [Authors' comment: Data are
+% illustrated in Figures. Numbers are available from the authors in tabulated
+% form upon request.]}
+
 \begin{thebibliography}{99}
 \bibitem{pom51}
   I. Pomeranchuk, Sov. JETF \textbf{21}, 1113 (1951)
@@ -629,12 +634,12 @@ the preparation is in progress.
 \bibitem{chi09}
   D. Chiladze et al., Eur. Phys. J. A \textbf{40}, 23 (2009)
 \bibitem{mch13}
-  D. Mchedlishvili et al., Eur. Phys. J. A \textbf{49} (2013)
+  D. Mchedlishvili et al., Eur. Phys. J. A \textbf{49}, 49 (2013)
 \bibitem{biz75}
   G. Bizard et al., Nucl. Phys B \textbf{85}, 14 (1975)
 \bibitem{bys78}
-  J. Bystricky, F. Lehar, Nucleon-Nucleon Scattering data, Karlsruhe:
-  Fachinformationszentrum, 521, (1978)
+  J. Bystricky, F. Lehar, Nucleon-Nucleon Scattering Data, 1978
+  edn. (Fachinformationszentrum, Karlsruhe, 1978), p. 521 (Physics Data, 11-1)
 \bibitem{tro14}
   Yu.A. Troyan et al., Phys. Part. Nucl. Lett. \textbf{11}, 101 (2014)
 \bibitem{bas14}
